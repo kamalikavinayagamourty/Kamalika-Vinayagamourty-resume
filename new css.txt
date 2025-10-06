@@ -1,0 +1,116 @@
+/* ===== General Styles ===== */
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #f7f8fa;
+  line-height: 1.6;
+}
+
+/* ===== Navigation Bar ===== */
+header {
+  background-color: #1a2b4c;
+  color: white;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.logo {
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #f0c674;
+}
+
+/* ===== Hero Section ===== */
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #e9ecf5;
+  color: #1a2b4c;
+}
+
+.hero h2 {
+  font-family: 'Merriweather', serif;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+/* ===== Section Styles ===== */
+.section {
+  width: 80%;
+  margin: 3rem auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.section h2 {
+  font-family: 'Merriweather', serif;
+  color: #1a2b4c;
+  border-bottom: 2px solid #f0c674;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.section ul {
+  list-style: square inside;
+  padding-left: 0;
+}
+
+.skills-list li {
+  display: inline-block;
+  background-color: #f0c674;
+  color: #1a2b4c;
+  margin: 0.4rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+/* ===== Contact Section ===== */
+#contact a {
+  color: #1a2b4c;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  color: #f0c674;
+}
+
+/* ===== Footer ===== */
+footer {
+  background-color: #1a2b4c;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
