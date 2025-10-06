@@ -1,1 +1,1 @@
-# Kamalika-Vinayagamourty-resume
+# Kamalika Vinayagamourty Resume
